@@ -1,0 +1,19 @@
+{
+  "API接口服务端口":"提供任务增删改查功能",
+  "apiPort": 8090,
+
+  "API接口读超时": "单位是毫秒",
+  "apiReadTimeOut": 5000,
+
+  "API接口写超时": "单位是毫秒",
+  "apiWriteTimeOut": 5000,
+
+  "ETCD集群列表":"配置多个，防止单点故障",
+  "etcdEndpoints": ["http://127.0.0.1:32771","http://127.0.0.1:32773","http://127.0.0.1:32769"],
+
+  "ETCD连接超时": "单位是毫秒",
+  "etcdDailTimeOut": 5000,
+
+  "静态文件目录": "前后端分离",
+  "staticDir": "./static"
+}
